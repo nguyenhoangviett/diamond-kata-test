@@ -1,0 +1,20 @@
+{
+  "name": "diamond-kata-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nguyenhoangviett/diamond-kata-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nguyenhoangviett/diamond-kata-test/issues"
+  },
+  "homepage": "https://github.com/nguyenhoangviett/diamond-kata-test#readme"
+}
