@@ -1,0 +1,2 @@
+# diamond-kata-test
+test 
