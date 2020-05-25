@@ -11,24 +11,24 @@ function printDiamond(letter) {
     for (let i = index; i >= 0; i--) {
         let newLine = ""
         const currentLetter = acceptedParams[i]
-        // Espaces devant
-        for (let j = 0; j < index - i; j++) { // lign containg letter
+        // Leerzeichen davor
+        for (let j = 0; j < index - i; j++) { // Zeile enthält Buchstabe
             newLine += " "
         }
 
-        // Premiere lettre
+        // Der erste Buchstabe
         newLine += currentLetter
 
-        // Espaces au milieu
+        // Leerzeichen in der Mitte
         for (let j = 0; j < (2 * i - 1); j++) {
             newLine += " "
         }
 
-        // Seconde lettre
+        // Der zweite Buchstabe
         if (currentLetter !== "A")
             newLine += currentLetter
 
-        // New line
+        // Neue Zeile
         newLine += "\n"
 
         diamond += newLine
