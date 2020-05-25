@@ -39,6 +39,8 @@ function printDiamond(letter) {
 
 }
 
+console.log(printDiamond("D"))
+
 module.exports = {
     printDiamond
 }
